@@ -13,10 +13,39 @@ h1{
 body{
   background-color: var(--champagne-pink);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 
 }
 
 header{
   background-color: var(--medium-turquoise);
   color: var(--jet);
+}
+header.border{
+  border-color: var(--dark-purple);
+}
+
+main{
+  flex-grow: 1;
+}
+
+.card{background-color: var(--dark-purple);
+  color: var(--orange-soda);
+  border-top-color: var(--medium-turquoise);
+ 
+}
+
+.card-body{
+  border-color: var(--medium-turquoise);
+  border-top-color: var(--medium-turquoise);
+}
+
+.btn{background-color: var(--medium-turquoise);}
+
+
+footer{
+  background-color: var(--medium-turquoise);
+  color: var(--jet);
+  position: bottom;
+  min-height: 20vh ;
 }
