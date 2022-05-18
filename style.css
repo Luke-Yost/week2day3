@@ -1,0 +1,22 @@
+:root{
+--orange-soda: #f06449ff;
+--champagne-pink: #ead7d1ff;
+--medium-turquoise: #55dde0ff;
+--dark-purple: #160f29ff;
+--jet: #333333ff;
+}
+
+h1{
+  color: var(--orange-soda);
+}
+
+body{
+  background-color: var(--champagne-pink);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+  background-color: var(--medium-turquoise);
+  color: var(--jet);
+}
